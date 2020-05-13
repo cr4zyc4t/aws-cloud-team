@@ -1,0 +1,41 @@
+$space: 8px;
+
+.footer {
+	width: 100%;
+	display: inline-flex;
+	justify-content: space-between;
+	background: #ebebeb;
+	padding: $space 0px;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.copyright,
+.info {
+	margin-left: $space;
+	margin-right: $space;
+}
+
+.info {
+	span[_css_="divider"] {
+		margin-left: $space;
+		margin-right: $space;
+	}
+}
+
+.modal-info {
+	text-align: center;
+	img {
+		width: 96px;
+	}
+}
+
+.info-title {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.info-content {
+  margin-top: 32px;
+}
